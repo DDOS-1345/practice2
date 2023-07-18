@@ -5,7 +5,6 @@ function bmi() {
   
     c = b / ((a / 100) * (a / 100));
 
- if(c >= 25){ 
     if (c >= 25) {
         document.getElementById("kuuran").textContent = "肥満型";
     }
